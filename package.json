@@ -1,9 +1,12 @@
 {
-  "name": "redwood-github-webhook-server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "git-webhook-handler": "1.0.6"
-  }
+	"name": "redwood-github-webhook-server",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"git-webhook-handler": "1.0.6"
+	}
 }
